@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Search Portal</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Job Search Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Search Jobs</a></li>
+        <li><a href="#">Post a Job</a></li>
+        <li><a href="#">Contact Us</a></li>
+        /* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.search-jobs h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.search-jobs form {
+  display: flex;
+  max-width: 500px;
+}
+
+.search-jobs input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-jobs button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.job-listings h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.job-listing {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.job-listing h3 {
+  font-size: 16px;
+  margin
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-jobs">
+      <h2>Find Your Dream Job</h2>
+      <form>
+        <input type="text" placeholder="Enter keywords">
+        <input type="text" placeholder="Location">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="job-listings">
+      <h2>Latest Job Listings</h2>
+      <div class="job-listing">
+        <h3>Job Title</h3>
+        <p class="company">Company Name</p>
+        <p class="location">Location</p>
+        <p class="description">Description</p>
+      </div>
+
+      <div class="job-listing">
+        <!-- Another job listing -->
+      </div>
+
+      <!-- Add more job listings as necessary -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Your Job Search Portal</p>
+  </footer>
+</body>
+</html>
